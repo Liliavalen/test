@@ -1,0 +1,330 @@
+:root{
+    --primary-text-color: #757575;
+    --title-color: #212121; 
+    --title-second-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --elemets-color: #000;
+    --first-fon-color: #2F303A;
+    --second-fon-color: #F5F4FA;
+
+}
+
+body {
+    background-color: var(--title-second-color);
+    font-family: Roboto;
+    color: var(--primary-text-color);
+}
+
+/*----------------------Heder----------------------*/
+
+        /*-----------Heder-logo---------*/
+.caption-logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--elemets-color);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.logo{
+        color: var(--accent-color);
+}
+.caption-logo.current,
+.caption-logo:hover,
+.caption-logo:focus {
+        color: var(--accent-color);
+ }
+
+         /*-----------Heder-list---------*/
+
+.list{
+    list-style: none;   
+ }
+
+.caption-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    cursor: pointer;
+    text-decoration: none;
+ }
+
+.caption-item.current,
+.caption-item:hover,
+.caption-item:focus {
+        color: var(--accent-color);
+}
+
+        /*-----------Heder-contact---------*/
+
+.caption-mail{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.caption-mail.current,
+.caption-mail:hover,
+.caption-mail:focus {
+    color: var(--accent-color);
+}
+
+.caption-tel{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);   
+    text-decoration: none;
+    cursor: pointer;     
+}
+
+.caption-tel.current,
+.caption-tel:hover,
+.caption-tel:focus {
+    color: var(--accent-color);
+}
+
+/*----------------------main----------------------*/
+
+       /*-----------Hero---------*/
+
+ .hero{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: var(--first-fon-color);
+ }
+
+.hero-title{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+       
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--title-second-color);
+ }
+
+.hero-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+     
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--title-second-color);
+    cursor: pointer;
+}
+
+.hero-button.current,
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--title-color);
+}
+  
+        /*-----------features---------*/
+
+
+.features-title{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.features-text{
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+        /*-----------services---------*/
+
+.services{
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+        /*---------Our team--------------*/
+
+.tiam{
+    background-color: var(--second-fon-color);
+}
+
+.team-title{
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.tiam-list-title{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.tiam-text{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*------------------footer---------------------*/
+        /*---------logo--------------*/
+
+.contacts{
+    background-color: var(--first-fon-color);
+}
+
+.contacts-logo{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-second-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contacts-logo.current,
+.contacts-logo:hover,
+.contacts-logo:focus {
+    color: var(--accent-color);
+}
+
+        /*---------address--------------*/
+
+.contacts-adr{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-second-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.address-top.current,
+.address-top:hover,
+.address-top:focus {
+    color: var(--accent-color);
+}
+
+.contacts-mail{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contacts-tel{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*---------------------portfolio------------------*/
+
+            /*---------button--------------*/
+
+.gallery-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    width: 112px;
+    height: 38px;
+  
+    background-color: var(--second-fon-color);
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.gallery-button.current,
+.gallery-button:hover,
+.gallery-button:focus {
+    background-color: var(--accent-color);
+    color: var(--title-second-color);
+}
+
+        /*----------галерея робіт----------*/
+
+.gallery-link{
+    text-decoration: none;
+}
+
+.gallery-link.current,
+.gallery-link:hover,
+.gallery-link:focus {
+    background-color: var(--accent-color);
+    color: var(--title-second-color);
+}
+
+.gallery-headline{
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.gallery-headline.current,
+.gallery-headline:hover,
+.gallery-headline:focus {
+    background-color: var(--accent-color);
+    color: var(--title-second-color);
+}
+
+.gallery-desk{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.gallery-desk.current,
+.gallery-desk:hover,
+.gallery-desk:focus {
+    background-color: var(--accent-color);
+    color: var(--title-second-color);
+}
